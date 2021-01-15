@@ -106,7 +106,7 @@ html{
         width: 100%;
     }
     .logo{
-        position: fixed;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -246,7 +246,7 @@ html{
         width: 100%;
     }
     .logo{
-        position: fixed;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -380,7 +380,7 @@ html{
         width: 100%;
     }
     .logo{
-        position: fixed;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -514,7 +514,7 @@ html{
         width: 100%;
     }
     .logo{
-        position: fixed;
+
         display: flex;
         justify-content: center;
         align-items: center;
