@@ -1,0 +1,557 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background-color: #D5E1DF;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+@media screen and (max-width:1440px){
+    .content{
+        height: auto;
+        min-height: 900px;
+        margin-top: 0%;
+    }
+    .section{
+        margin: 0% 0%;
+    }
+    .h1{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h3{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1:hover{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 100px;
+        letter-spacing: 4%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .h2:hover{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 100px;
+        letter-spacing: 4%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .h3:hover{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 100px;
+        letter-spacing: 4%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    #first{
+        z-index: 1;
+        background: url(/img/pic1_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30% 0%;
+        width: 100%;
+    }
+    #second{
+        z-index: 1;
+        background: url(/img/pic2_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30% 0%;
+        width: 100%;
+    }
+    #third{
+        z-index: 1;
+        background: url(/img/pic3_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30% 0%;
+        width: 100%;
+    }
+    .logo{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 8%;
+        margin: 5% 45%;
+    }
+    footer{
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: bottom;
+        margin-top: -4%;
+    }
+    p{
+        background-color: #F4F4ED;
+        width: 100%;
+        padding: 2%;
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 0%;
+    }
+    .logo2{
+        position: fixed;
+        z-index: 4;
+        width: 7%;
+        margin: 1% 2%;
+    }
+    
+}
+
+@media screen and (max-width:1920px){
+    .content{
+        height: auto;
+        min-height: 900px;
+        margin-top: 0%;
+    }
+    .section{
+        margin: 0% 0%;
+    }
+    .h1{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h3{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1:hover{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 100px;
+        letter-spacing: 4%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .h2:hover{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 100px;
+        letter-spacing: 4%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    .h3:hover{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 100px;
+        letter-spacing: 4%;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    #first{
+        z-index: 1;
+        background: url(/img/pic1_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30% 0%;
+        width: 100%;
+    }
+    #second{
+        z-index: 1;
+        background: url(/img/pic2_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30% 0%;
+        width: 100%;
+    }
+    #third{
+        z-index: 1;
+        background: url(/img/pic3_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30% 0%;
+        width: 100%;
+    }
+    .logo{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 8%;
+        margin: 5% 45%;
+    }
+    footer{
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: bottom;
+        margin-top: -4%;
+    }
+    p{
+        background-color: #F4F4ED;
+        width: 100%;
+        padding: 2%;
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 0%;
+    }
+    .logo2{
+        position: fixed;
+        z-index: 4;
+        width: 7%;
+        margin: 1% 2%;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .content{
+        height: auto;
+        min-height: 900px;
+        margin-top: 0%;
+    }
+    .section{
+        margin: 0% 0%;
+    }
+    .h1{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h3{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1:hover{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: w#585858;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2:hover{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h3:hover{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    #first{
+        z-index: 1;
+        background: url(/img/p1m_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 63% 0%;
+        width: 100%;
+    }
+    #second{
+        z-index: 1;
+        background: url(/img/p2m_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 63% 0%;
+        width: 100%;
+    }
+    #third{
+        z-index: 1;
+        background: url(/img/p3m_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 63% 0%;
+        width: 100%;
+    }
+    .logo{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 15%;
+        margin: 5% 45%;
+    }
+    footer{
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: bottom;
+        margin-top: -5%;
+    }
+    p{
+        background-color: #F4F4ED;
+        width: 100%;
+        padding: 2%;
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 0%;
+    }
+    .logo2{
+        position: fixed;
+        z-index: 4;
+        size: 10%;
+        margin: 2% 5%;
+    }
+    
+}
+
+@media screen and (max-width:414px){
+    .content{
+        height: auto;
+        min-height: 900px;
+        margin-top: 0%;
+    }
+    .section{
+        margin: 0% 0%;
+    }
+    .h1{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h3{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: white;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h1:hover{
+        z-index: 2;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: w#585858;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h2:hover{
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .h3:hover{
+        z-index: 4;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    #first{
+        z-index: 1;
+        background: url(/img/pic1s_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 84% 0%;
+        width: 100%;
+    }
+    #second{
+        z-index: 1;
+        background: url(/img/pic2s_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 84% 0%;
+        width: 100%;
+    }
+    #third{
+        z-index: 1;
+        background: url(/img/pic3s_.png) no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 84% 0%;
+        width: 100%;
+    }
+    .logo{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 15%;
+        margin: 5% 45%;
+    }
+    footer{
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: bottom;
+        margin-top: -5%;
+    }
+    p{
+        background-color: #F4F4ED;
+        width: 100%;
+        padding: 2%;
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        font-family: 'Noto Serif TC', serif;
+        color: #585858;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1% 0%;
+    }
+    .logo2{
+        position: fixed;
+        z-index: 4;
+        size: 10%;
+        margin: 1% 3%;
+    }
+}
